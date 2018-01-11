@@ -17,9 +17,9 @@ function deleteFromObjectByKey(object, key) {
   delete newObj[key]
   return newObj
 }
-const obj = { prop: 1 }
+//const obj = { prop: 1 }
 
-function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  
+function destructivelyDeleteFromObjectByKey(object, key) {
+  delete object[key]
   return object
 }
